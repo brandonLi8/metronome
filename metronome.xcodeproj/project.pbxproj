@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A43214621C57C5F00871262 /* metronomeBeat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9A43214521C57C5F00871262 /* metronomeBeat.mp3 */; };
 		9AEBBCBA21C453400062472B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEBBCB921C453400062472B /* AppDelegate.swift */; };
 		9AEBBCBC21C453400062472B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEBBCBB21C453400062472B /* ViewController.swift */; };
 		9AEBBCBF21C453400062472B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AEBBCBD21C453400062472B /* Main.storyboard */; };
 		9AEBBCC121C453460062472B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AEBBCC021C453460062472B /* Assets.xcassets */; };
 		9AEBBCC421C453470062472B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AEBBCC221C453470062472B /* LaunchScreen.storyboard */; };
-		9AEBBCCF21C4BC6C0062472B /* Metronome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEBBCCE21C4BC6C0062472B /* Metronome.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9A43214521C57C5F00871262 /* metronomeBeat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = metronomeBeat.mp3; sourceTree = "<group>"; };
 		9AEBBCB621C453400062472B /* metronome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = metronome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AEBBCB921C453400062472B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9AEBBCBB21C453400062472B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -23,7 +24,6 @@
 		9AEBBCC021C453460062472B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9AEBBCC321C453470062472B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9AEBBCC521C453470062472B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9AEBBCCE21C4BC6C0062472B /* Metronome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metronome.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +37,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9A43214721C57C7200871262 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				9A43214521C57C5F00871262 /* metronomeBeat.mp3 */,
+			);
+			path = sounds;
+			sourceTree = "<group>";
+		};
 		9AEBBCAD21C453400062472B = {
 			isa = PBXGroup;
 			children = (
@@ -58,8 +66,8 @@
 			children = (
 				9AEBBCCB21C4BBF80062472B /* supporting  */,
 				9AEBBCBB21C453400062472B /* ViewController.swift */,
-				9AEBBCCE21C4BC6C0062472B /* Metronome.swift */,
 				9AEBBCBD21C453400062472B /* Main.storyboard */,
+				9A43214721C57C7200871262 /* sounds */,
 				9AEBBCC521C453470062472B /* Info.plist */,
 			);
 			path = metronome;
@@ -134,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9AEBBCC421C453470062472B /* LaunchScreen.storyboard in Resources */,
+				9A43214621C57C5F00871262 /* metronomeBeat.mp3 in Resources */,
 				9AEBBCC121C453460062472B /* Assets.xcassets in Resources */,
 				9AEBBCBF21C453400062472B /* Main.storyboard in Resources */,
 			);
@@ -146,7 +155,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AEBBCCF21C4BC6C0062472B /* Metronome.swift in Sources */,
 				9AEBBCBC21C453400062472B /* ViewController.swift in Sources */,
 				9AEBBCBA21C453400062472B /* AppDelegate.swift in Sources */,
 			);
